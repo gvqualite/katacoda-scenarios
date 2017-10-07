@@ -18,7 +18,12 @@ training_data = tf.placeholder(tf.float32, [None, image_size*image_size])
 labels = tf.placeholder(tf.float32, [None, labels_size])
 </pre>
 
-<pre class="file" data-filename="app.py" data-target="replace">
+<pre class="file" data-filename="index.js" data-target="replace">
+# Define placeholders
+training_data = tf.placeholder(tf.float32, [None, image_size*image_size])
+labels = tf.placeholder(tf.float32, [None, labels_size])
+</pre>
+<pre class="file" data-filename="test.jsy" data-target="append">
 # Define placeholders
 training_data = tf.placeholder(tf.float32, [None, image_size*image_size])
 labels = tf.placeholder(tf.float32, [None, labels_size])
