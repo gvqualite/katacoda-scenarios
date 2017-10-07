@@ -8,3 +8,7 @@ This is an _example_ of creating a scenario and running a **command**
 index.js{{open}}
 
 `console.log("hello")`{{copy}}
+
+
+
+Allow a code block to be copied `some-command`{{copy}}
