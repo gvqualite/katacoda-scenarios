@@ -2,4 +2,4 @@
 
 
 
-'node indes.js'{{execute}}
+`node index.js`{{execute}}
