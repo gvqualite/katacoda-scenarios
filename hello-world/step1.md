@@ -12,3 +12,8 @@ index.js{{open}}
 
 
 Allow a code block to be copied `some-command`{{copy}}
+<pre class="file" data-filename="index.js" data-target="append">
+# Define placeholders
+training_data = tf.placeholder(tf.float32, [None, image_size*image_size])
+labels = tf.placeholder(tf.float32, [None, labels_size])
+</pre>
