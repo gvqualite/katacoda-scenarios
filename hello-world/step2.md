@@ -1,14 +1,14 @@
 This is your first step.
 
-## Include the SDK
+## Step 1: Include the SDK
 
 This is an _example_ of creating a scenario and running a **command**
 <pre class="file" data-filename="index.js" data-target="append">
 var obsapi = require("obs-demo-api")
 </pre>
  
-## Include the SDK
-Allow a code block to be copied `some-command`{{copy}}
+## Step 2: Set Authentication information
+ 
 <pre class="file" data-filename="index.js" data-target="append">
 # Define placeholders
 var auth = {
@@ -17,7 +17,7 @@ var auth = {
 		token: ""	
 	}
 </pre>
-
+## Step 3: Write the code
 <pre class="file" data-filename="index.js" data-target="replace">
 # Define placeholders
 obs2('countries').getRecords().then(function (repos) 
