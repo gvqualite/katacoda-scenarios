@@ -4,20 +4,35 @@ This is your first step.
 
 This is an _example_ of creating a scenario and running a **command**
 <pre class="file" data-filename="index.js" data-target="append">
-var obd-demo = require("obs-demo")
+var obsapi = require("obs-demo-api")
 </pre>
  
 ## Include the SDK
 Allow a code block to be copied `some-command`{{copy}}
 <pre class="file" data-filename="index.js" data-target="append">
 # Define placeholders
-training_data = tf.placeholder(tf.float32, [None, image_size*image_size])
-labels = tf.placeholder(tf.float32, [None, labels_size])
+var auth = {
+		clientID : "",
+		secret: "",
+		token: ""	
+	}
 </pre>
 
 <pre class="file" data-filename="index.js" data-target="replace">
 # Define placeholders
-training_data = tf.placeholder(tf.float32, [None, image_size*image_size])
-labels = tf.placeholder(tf.float32, [None, labels_size])
+obs2('countries').getRecords().then(function (repos) 
+  {
+		console.log("List of countries")	
+		repos.forEach(function (a)
+		{
+			console.log(a.name);
+		});
+		 
+    })
+    .catch(function (err) 
+    {
+		        console.log("An error Occured");
+         console.log(err);
+    });;
 </pre>
  
