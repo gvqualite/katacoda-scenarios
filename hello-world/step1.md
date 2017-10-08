@@ -13,3 +13,4 @@ You can install it via the following command
 
 `npm install obs-demo-api`{{execute}}
  
+ URL https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
