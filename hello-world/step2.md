@@ -11,14 +11,25 @@ var obsapi = require("obs-demo-api")
  
 <pre class="file" data-filename="index.js" data-target="append">
  
-var auth = {
+var auth = 
+	{
 		clientID : "",
 		secret: "",
-		token: ""	
-	}
+		token: "",
+ 
+		'user': 'admin',
+		'pass': 'admin'		
+	};
 </pre>
-## Step 3: Write the code
-<pre class="file" data-filename="index.js" data-target="replace">
+
+## Step 3: Create the object
+The next step is to create an OBS Demo API with the credential
+<pre class="file" data-filename="index.js" data-target="append">
+ var obs2 =    obs(auth);
+ </pre>
+ 
+## Step 3: List all incidents
+<pre class="file" data-filename="index.js" data-target="append">
  
 obs2('countries').getRecords().then(function (repos) 
   {
