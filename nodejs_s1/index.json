@@ -11,22 +11,22 @@
 			"text": "step1.md"
 		},
 	 
-	{
+		{
 			"title": "Step 2 - include the  package",
 			"text": "step2.md"
-    },
-	{
+		},
+		{
 			"title": "Step 2 - First sample code: ressource list",
 			"text": "step3.md"
-    },
-	{
+		},
+		{
 			"title": "Step 4 - Test your code",
 			"text": "step4.md"
-    },
-	{
+		},
+		{
 			"title": "Step 5 - Conclusion",
 			"text": "step5.md"
-    }
+		}
 	],
     "intro": {
       "text": "intro.md",
@@ -43,9 +43,9 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "Tab Name", "url":"commandline-admin.3scale.net"}],
-    "uilayout": "terminal-frame",
+    "uilayout": "terminal-editor",
     "uisettings":"javascript",
-     "icon":"fa-user",
+     "icon":"fa-node",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
