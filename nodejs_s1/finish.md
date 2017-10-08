@@ -1,1 +1,5 @@
-You've completed your first Katacoda scenario!
+
+
+You've completed the first NodeJS scenario!
+
+Other scenarios are available

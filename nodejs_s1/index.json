@@ -1,6 +1,6 @@
 {
-  "title": "OBS demo API registration",  
-  "description": "This course explains how to setup the package and to use is thru a basic use cases 'List incidents with priority 1' ",
+  "title": "Use the OBS Demo API with a basic sample",  
+  "description": "This course explains how to use the package for accessing resources' ",
   "difficulty": "beginner",
   "time": "5 minutes",
  
@@ -42,7 +42,7 @@
     ],
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "url":"commandline-admin.3scale.net"}],
+    "dashboards": [{"name": "Data", "url":"http://54.245.98.55/avadmin/test.json"}],
     "uilayout": "editor-terminal",
     "uisettings":"javascript",
      "icon":"fa-node",
