@@ -1,18 +1,18 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "OBS demo API with NodeJS",
+  "description": "This course explains how to setup the package and to use is thru a basic use cases 'List incidents with priority 1' ",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Install OBS-Demo package",
+      "title": "Step 1 - Set-up the environment",
       "text": "step1.md"
     },{
-      "title": "Step 2 - Run Command",
+      "title": "Step 2 - First sample for a basic list",
       "text": "step2.md"
     } 
              ,{
-      "title": "Step 3 - Test",
+      "title": "Step 3 - Test the code",
       "text": "step3.md"
     }],
     "intro": {
