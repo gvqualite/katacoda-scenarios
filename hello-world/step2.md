@@ -10,7 +10,7 @@ var obsapi = require("obs-demo-api")
 ## Step 2: Set Authentication information
  
 <pre class="file" data-filename="index.js" data-target="append">
-# Define placeholders
+ 
 var auth = {
 		clientID : "",
 		secret: "",
@@ -19,7 +19,7 @@ var auth = {
 </pre>
 ## Step 3: Write the code
 <pre class="file" data-filename="index.js" data-target="replace">
-# Define placeholders
+ 
 obs2('countries').getRecords().then(function (repos) 
   {
 		console.log("List of countries")	
