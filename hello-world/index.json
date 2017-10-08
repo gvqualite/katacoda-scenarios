@@ -1,5 +1,5 @@
 {
-  "title": "OBS demo API with NodeJS",
+  "title": "OBS demo API with NodeJS",  
   "description": "This course explains how to setup the package and to use is thru a basic use cases 'List incidents with priority 1' ",
   "difficulty": "beginner",
   "time": "5 minutes",
@@ -9,7 +9,7 @@
       "title": "Step 1 - Set-up the environment",
       "text": "step1.md"
     },{
-      "title": "Step 2 - First sample for a basic list",
+      "title": "Step 2 - First sample code: ressource list",
       "text": "step2.md"
     } 
              ,{
