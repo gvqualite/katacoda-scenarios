@@ -25,7 +25,7 @@ var auth =
 ## Step 3: Create the object
 The next step is to create an OBS Demo API with the credential
 <pre class="file" data-filename="index.js" data-target="append">
- var obs2 =    obs(auth);
+ var obs2 =    obsapi(auth);
  </pre>
  
 ## Step 3: List all incidents
