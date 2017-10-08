@@ -30,7 +30,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "Tab Name", "url":"commandline-admin.3scale.net"}],
-    "uilayout": "editor-terminal",
+    "uilayout": "editor-terminal-split",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
