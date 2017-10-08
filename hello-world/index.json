@@ -1,57 +1,26 @@
 {
-  "title": "OBS demo API with NodeJS",  
-  "description": "This course explains how to setup the package and to use is thru a basic use cases 'List incidents with priority 1' ",
+  "title": "Hello World Scenario",
+  "description": "Your First Scenario",
   "difficulty": "beginner",
-  "time": "5 minutes",
- 
+  "time": "2 minutes",
   "details": {
-    "steps": [
-		{
-			"title": "Step 1 - Create a developer login",
-			"text": "step1.md"
-    },
-	{
-			"title": "Step 2 - Generate a token",
-			"text": "step1b.md"
-    },
-	{
-			"title": "Step 3 - Generate a token",
-			"text": "step1c.md"
-    },
-	{
-			"title": "Step 4 - First sample code: ressource list",
-			"text": "step2.md"
-    },
-	{
-			"title": "Step 5 - Test your code",
-			"text": "step3.md"
-    },
-	{
-			"title": "Step 6 - Conclusion",
-			"text": "step4.md"
-    }
-	],
+    "steps": [{
+      "title": "Step 1 - Run Command",
+      "text": "step1.md"
+    }],
     "intro": {
       "text": "intro.md",
-      "courseData": "intro-course-data.sh",
       "credits": ""
     },
     "finish": {
       "text": "finish.md"
     }
   },
-    "files": [
-        "index.js"
-    ],
   "environment": {
-    "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "url":"commandline-admin.3scale.net"}],
-    "uilayout": "editor-terminal",
-    "uisettings":"javascript",
-     "icon":"fa-node",
+    "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "node6"
+    "imageid": "bash"
   }
 }
