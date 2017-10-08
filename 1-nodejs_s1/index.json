@@ -1,6 +1,6 @@
 {
-  "title": "Use the OBS Demo API with a basic sample",  
-  "description": "This course explains how to use the package for accessing resources' ",
+  "title": "Use the OBS Demo API with NodeJS #1",  
+  "description": "This course explains how to access resources with the obs-demo-api package' ",
   "difficulty": "beginner",
   "time": "5 minutes",
  
