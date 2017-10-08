@@ -1,6 +1,6 @@
 {
   "title": "OBS demo API registration",  
-  "description": "This course explains how to setup the package and to use is thru a basic use cases 'List incidents with priority 1' ",
+  "description": "This course explains how to retrieve credentials required for using the OBS Demo API",
   "difficulty": "beginner",
   "time": "5 minutes",
  
@@ -9,16 +9,23 @@
 		{
 			"title": "Step 1 - Create a developer login",
 			"text": "step1.md"
-    },
-	{
-			"title": "Step 2 - Generate a token",
-			"text": "step2.md"
-    },
-	 
-	{
-			"title": "Step 3 - Conclusion",
-			"text": "step3.md"
-    }
+		},
+		{
+				"title": "Step 2 - Create an application",
+				"text": "step2.md"
+		},
+		{
+				"title": "Step 3 - Get ClientID and Secret",
+				"text": "step3.md"
+		},
+		{
+				"title": "Step 4 - Generate a token",
+				"text": "step4.md"
+		},
+		{
+				"title": "Step 5 - Conclusion",
+				"text": "step3.md"
+		}
 	],
     "intro": {
       "text": "intro.md",
