@@ -3,6 +3,7 @@
   "description": "This course explains how to setup the package and to use is thru a basic use cases 'List incidents with priority 1' ",
   "difficulty": "beginner",
   "time": "5 minutes",
+  "icon":"fa-node",
   "details": {
     "steps": [{
       "title": "Step 1 - Set-up the environment",
